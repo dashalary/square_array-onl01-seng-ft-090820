@@ -1,5 +1,4 @@
 def square_array(array)
-  squared = Array.new 
-array.each { |n| n ** 2 }
+array.each { |n| puts "#{n} ** 2" }
 
 end
