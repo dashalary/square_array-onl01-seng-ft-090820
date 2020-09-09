@@ -1,6 +1,6 @@
-def square_array(array)
+def square_array(numbers)
   squared = Array.new 
-array.each |n|
+numbers.each |n|
 n**2
 
 end
